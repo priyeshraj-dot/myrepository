@@ -1,125 +1,151 @@
 * {
-    margin:0;
-    padding:0;
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
 }
 body{
-    margin-bottom: 0;
-    margin-right: 0;
-}
-.container1{
-    height:100vh;
-    width:100vw;
-    /*border:2px solid black;*/
-    position:relative;
-    display:flex;
-    flex-direction: column;
-    flex-flow: column wrap;
-    
-}
-.container2{
-    height: 100dvh;
-    width:49dvw;
-    position:relative;
-    display: flex;
-    
-    
-    /*border:1px solid red;*/
-}
-.container3{
-    height: 100dvh;
-    width:51dvw;
-    position:relative;
-    display: flex;
-    
-    background: rgb(229, 244, 253);
-   /* border:1px solid blue;*/
-    text-align: center;
-    
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 15%;
+    overflow: scroll;
+    /*border: 2px solid black;*/
 
 }
-.container4{
-    height: 64dvh;
-    width:40dvw;
-    background-color: aliceblue;
-    margin-top:17dvh;
-    margin-left:5dvw;
-    position:relative;
-    box-shadow: 2px 2px 5px #2773a5;
-    border-radius: 4px;
+.Container{
+    height:150px;
+    width: 1400px;
+    /*border:1px solid green;*/
+    display: inline-block;
+    overflow: hidden;
+}
 
-    
-}
-img{
-    height:100%;
-    width:100%;
-}
-.first{
-    margin-top: 4dvh;
-    text-align: center;
-    font-size: 1.5vw;
+.abc{
+    margin-left: 20px;
+    font-size: 1.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
-.second{
-    margin-top: 2dvh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5vw;
-    color: darkgray;
-}
-.third{
-    text-align: left;
-    margin-top: 5dvh;
-    margin-left:5dvw;
-    color: #4c4b4b;
-    font-size: 1vw;
-    
-}
-.my-input{
-    margin-top: .3vw;
-    height: 6vh;
-    width:30vw;
-    border-radius: 5px;
-    border-style: hidden;
-}
-#button{
-    height: 6vh;
-    width:30vw;
-    border-radius: 5px;
-    border-style: hidden;
-    color:whitesmoke;
-    background-color: aqua;
-    font-weight: bold;
-    font-size: 1vw;
-    margin-top: 4vh;
-    position: relative;
-}
-#button:hover{
-    font-weight:bolder ;
-    background-color: blue;
-    font-size: 1.2vw;
-    
-}
-.forth{
-    text-align: center;
-    font-size: 1vw;
-    margin-top: 5vh;
-    color: #4c4b4b;
-
-}
-span{
-    color:blue;
+    color: crimson;
+    display: inline-block;
+    list-style: none;
     cursor: pointer;
+    overflow: hidden;
 }
-span:hover{
-    font-size: 1.2vw;
+.abc:hover{
+    color: blue;
     font-weight: bold;
+}
+img {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    overflow: hidden;
+  }
+  
+.header-tab {
+    margin-left: 15%;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
     
+   /* border: 1px solid black;*/
+  }
+.button1{
+    width:200px;
+    height: 80px;
+    vertical-align: top;
+    background-color: rgb(132, 239, 239);
+    color: rgb(61, 127, 202);
+    text-align: center;
+    display: inline-block;
+    padding: 23px;
+    position:relative;
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-left: 10%;
+    /*border-color:black;*/
+    border-radius: 10px;
+    overflow: hidden;
 }
-#email{
-    font-size: .8vw;
-    color: gainsboro;
+.button1:hover{
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: aqua;
+    text-decoration: underline;
 }
-#password{
-    font-size: .8vw;
-    color: gainsboro;
+.notebook{
+    height:80vh;
+    width:90vw;
+    /*border:1px solid brown;*/
+    display: inline-block;
+    position:relative;
+}
+.book{
+    width:42vw;
+    height:70vh;
+    /*border:1px solid green;*/
+    display:inline-block;
+    overflow: hidden;
+}
+.firsttext{
+    margin-top: 10%;
+    margin-left:5% ;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 4em;
+}
+.secondtext{
+    margin-left:5% ;
+    text-align: left;
+    font-weight: bolder;
+    color:cyan;
+    font-size: 3em;
+
+}
+.thirdtext{
+    margin-left:5% ;
+    text-align: left;
+    color:darkgray;
+    font-size: 1.5em;
+
+}
+.button2{
+    width:300px;
+    height: 80px;
+    vertical-align: bottom;
+    background-color: rgb(132, 239, 239);
+    color: rgb(61, 127, 202);
+    text-align: center;
+    display: inline-block;
+    padding: 23px;
+    position:relative;
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-left: 25%;
+    /*border-color:black;*/
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.button2.button2:hover{
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: aqua;
+    text-decoration: underline;
+}
+.image1{
+    height: 70dvh;
+    width:45dvw;
+    display: inline-block;
+    /*border:1px solid blue;*/
+    margin-left:2%;
+    position:absolute;
+    overflow: hidden;
+
+}
+.image2{
+    margin-left:20%;
+    margin-top: 11%;
+    vertical-align: right;
+    overflow: hidden;
 }
